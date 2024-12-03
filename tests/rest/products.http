@@ -1,0 +1,34 @@
+### Get All Products
+GET http://localhost:6000/products/
+Accept: application/json
+
+<> 2024-12-03T202125.200.json
+<> 2024-12-03T202104.200.json
+<> 2024-12-03T202035.200.json
+<> 2024-12-03T201948.200.json
+<> 2024-12-03T201902.200.json
+<> 2024-12-03T201736.200.json
+<> 2024-12-03T201651.200.json
+
+### Create Product
+POST http://localhost:6000/products/
+Content-Type: application/json
+
+{
+  "name": "Product 1",
+  "description": "This is product 1",
+  "price": 100
+}
+
+<> 2024-12-03T202123.201.json
+<> 2024-12-03T202114.201.json
+<> 2024-12-03T201926.201.json
+<> 2024-12-03T201732.201.json
+
+### Get Product
+GET http://localhost:6000/products/1
+Accept: application/json
+
+<> 2024-12-03T202121.200.json
+<> 2024-12-03T201932.200.json
+<> 2024-12-03T201823.200.json
